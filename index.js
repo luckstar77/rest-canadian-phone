@@ -27,4 +27,4 @@ app.use(async ctx => {
     ctx.body = result;
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
